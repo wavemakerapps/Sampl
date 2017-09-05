@@ -15,7 +15,7 @@
       "type" : "string",
       "displayName" : "Hrdbuser",
       "bindable" : "out-bound",
-      "value" : "bind:Variables.databaseVariable1.dataSet",
+      "value" : "bind:Variables.serviceVariable1.dataSet",
       "widget" : "string",
       "show" : true,
       "disabled" : false
