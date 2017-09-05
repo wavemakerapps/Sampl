@@ -1,15 +1,34 @@
 {
-    "displayName": "Sampl",
-    "group": "",
-    "templateUrl": "/pages/Main/Main.html",
-    "controllerUrl": "/pages/Main/Main.js",
-    "variablesUrl": "/pages/Main/Main.variables.json",
-    "iconUrl": "/resources/images/imagelists/prefab-icon.png",
-    "resources": {
-        "styles": [
-            "/pages/Main/Main.css"
-        ],
-        "scripts": []
+  "displayName" : "Sampl",
+  "group" : "Sample",
+  "templateUrl" : "/pages/Main/Main.html",
+  "controllerUrl" : "/pages/Main/Main.js",
+  "variablesUrl" : "/pages/Main/Main.variables.json",
+  "iconUrl" : "/resources/images/imagelists/IMG.jpg",
+  "resources" : {
+    "styles" : [ "/pages/Main/Main.css" ],
+    "scripts" : [ ],
+    "modules" : [ ]
+  },
+  "properties" : {
+    "hrdbuser" : {
+      "type" : "string",
+      "displayName" : "Hrdbuser",
+      "bindable" : "out-bound",
+      "value" : "bind:Variables.databaseVariable1.dataSet",
+      "widget" : "string",
+      "show" : true,
+      "disabled" : false
     },
-    "properties": {}
+    "Samplewe" : {
+      "type" : "method",
+      "method" : "serviceVariable1"
+    },
+    "onMyevent" : {
+      "type" : "event",
+      "widget" : "eventlist",
+      "show" : true,
+      "disabled" : false
+    }
+  }
 }
